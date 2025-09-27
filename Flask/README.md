@@ -1,6 +1,6 @@
 # Flask + Password Numerico
-El siguente comando prueva numeros aleatorios automaticamente en una URL
-arrojando convinaciones hasta encontrar una respuesta correcta.
+El siguente comando prueba numeros aleatorios automaticamente en una URL
+arrojando conbinaciones hasta encontrar una respuesta correcta.
 
 #python 
 1. importamos libreria
@@ -15,7 +15,7 @@ arrojando convinaciones hasta encontrar una respuesta correcta.
 4. Solicitud a Http
 > response = requests.get(url)
 
-5. Verificación de la respuesta
+5. Verificacion de la respuesta
 > if "correcta" in response.text:
     print("\t" + response.text)
     break
